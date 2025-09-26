@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #00C853;
+    /* border: 1px solid ; */
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.container h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    margin: auto;
+
+}
+.container button{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 45px;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.container p{
+    font-size: 1.0rem;
+    font-weight: medium;
+}
+.content{
+    padding: 50px;
+}
+/* 2nd TASK */
+.profile {
+    border: 1px solid #dadce0;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+    /* padding: 20px; */
+   
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.profile h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #202124;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  margin: 0 20px;
+}
+
+.link {
+    border-top: 1px solid #dadce0;
+    padding-top: 20px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.link a {
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 16px;
+    font-weight: 500;
+}
+.content1, .img{
+    padding: 20px;
+} 
+/* 3rd TASK */
+.container3{
+    border: 1px solid grey;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    
+
+    
+}
+.container3 h2,p{
+    font-family: 'Google Sans', 'Roboto', Arial, sans-serif;
+    padding: 10px;
+    margin: 0px;
+    text-align: justify;
+}
+.log{
+    padding: 15px;
+}
+.btn3{
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    color: blue;
+    border-radius: 5px;
+}
+.img3{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+/* 4th TASK */
+.head h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+.loginpage{
+    /* border: 1px solid grey; */
+    
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+    background-color:hwb(220 95% 3%);
+}
+.form .email,.pass{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 60%;
+    margin: 10px;
+}
+.btn4{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: 20px;
+}
+.footer4, span{
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
+}
+.footer4 , a{
+    
+    color: blue;
+    color: rgb(72, 71, 71);
+    text-align: center;
+
+}
+.footer4 p{
+    text-align: center;
+}
+.footer5 p{
+    text-align: center;
+    color: grey;
+margin-top: 20px;
+}
+

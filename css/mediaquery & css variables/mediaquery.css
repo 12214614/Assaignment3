@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+:root{
+    --padding:10px;
+    --bag-color:#fff;
+    --text-color:#444;
+    --parent-back-color:rgb(143, 134, 134) ;
+}
+.container{
+   padding: 45px;
+   text-align: justify;
+    /* --bg:red; */
+    background-color: var(--parent-back-color);
+
+    /* but we can use for whole page where we want */
+}
+h1{
+    text-align: center;
+background-color:var(--bg);
+    --bg:yellow;
+}
+.box{
+    padding: var(--padding);
+    /* margin: 10px; */
+    /* --bg:yellow; */
+    background-color: var(--bag-color);
+    margin-block: 20px;
+}
+h2{
+    background-color:var(--bg);
+    --bg:orange;
+    
+    
+    /* --bg:red */ 
+    /* it only uses in particular class */
+}
+#var{
+    background-color: var(--bg);
+    --bg:blue;
+}
+h4{
+    text-align: justify;
+    padding: 45px;
+    color: var(--bg,pink);
+    /* it backup color */
+
+}
+p{
+    color: var(--text-color);
+}
+/* this is media query */
+@media (max-width:1024px){
+.container{
+    flex-direction: column;
+}
+}

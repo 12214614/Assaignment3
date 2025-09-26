@@ -1,0 +1,70 @@
+
+/* This is ELEMENT SELECTOR: */
+p{
+    color: brown;
+}
+/* This is ID SELECTOR: */
+#h3{
+    color: rgb(255, 47, 47);
+}
+#list{
+    color: green;
+}
+/* THIS NESTED SELECTOR: */
+#li ,.li1{
+    color: blue;
+}
+/* This is CLASS SELECTOR: */
+.pclass{
+    color: purple;
+}
+/* SPECIFICITY:
+1. Inline CSS (style attribute) - Highest specificity   
+2. ID Selector (#id)
+3. Class Selector (.class), Attribute Selector ([type="text"]), Pseudo-class (:hover)
+4. Element Selector (div, p, h1) - Lowest specificity
+When multiple rules apply to the same element, the one with the highest specificity takes precedence. If two rules have the same specificity, the one that appears last in the CSS file is applied. */
+/* HERE FIRST PRIORITY IS WHICH IS LATEST ONE  */
+/* So here .pclass2 will be applied */
+.pclass{
+    color: orange;
+}
+.pclass2{
+    color: pink;
+}
+/* UNIVERSAL SELCTOR: */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+/* Descent selector */
+#airticle p{
+    color: red;
+    font-size: 20px;}
+/* COMBINATION SELECTOR: */
+#pid.pclass1{
+    font-size: 30px;
+}
+p.pclass{
+    font-size: 25px;
+}
+/* PSEUDO-CLASS: */
+/* a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:visited{
+    color: purple;
+} */
+/* PSEUDO-ELEMENT: */
+#li,.li1::first-letter{
+    font-size: 200%;
+    color: red;
+}
+p::first-line{
+    font-size: 150%;
+    color: blue;
+}
+/* direct children selector */
+#airticle1 >p{
+    color: green;
+}

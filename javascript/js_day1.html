@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_Day1</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div >
+    <button id="quantity" onclick="quanity()"> Show Quantity</button>
+    <button id="cart" onclick="car2t()"> Add to Cart</button>
+    <button id="add2" onclick="add2()"> +2</button>
+    <button id="add3" onclick="add3()"> +3</button>
+    <button id="reset" onclick="reset()"> Reset</button>
+    <button id="remove" onclick="remove()">Remove</button>
+
+    <p id="para1"> </p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+    </div>
+    <div>
+        <button  onclick="count += 1;console.log(`adding1 :${count}`)">1</button>
+        <button onclick="count += 2; console.log(`adding1 :${count}`)">2</button>
+        <button onclick="count += 3;console.log(`adding1 :${count}`)">3</button>
+        <button onclick=" ">+</button>
+       <button onclick=" console.log(`sum = ${count}`)">=</button>
+    </div>
+    <script>
+     
+  document.getElementById("para1")
+       document.getElementById("para2")
+       document.getElementById("para3")
+       document.getElementById("sum")
+       let quantity = 1
+       let car1t = 1
+       let count =0
+       
+
+       function quanity(){
+        para1.innerText = (`Show cart Quantity: ${quantity}`)
+       }
+       function car2t(){
+        para2.innerText = `add cart ${car1t}`
+
+       }
+       function add2(){
+        para3.innerText ='Updated Cart' +" "+ (car1t = car1t + 2)
+
+       }
+       function add3(){
+        para3.innerText ='Updated Cart' +" "+ (car1t = car1t + 3)
+       }
+       function reset(){
+        quantity = 0;
+        car1t = 0
+        para1.innerText = "quantity" + quantity
+        para2.innerText = "cart" + car1t
+        para3.innerText = "updated" + " "+car1t
+       }
+       function remove(){
+        para3.innerText ='Updated Cart' +" "+ (car1t = car1t - 1)
+       }
+
+
+
+
+
+
+    </script>
+<!--   
+    <button onclick="
+      calculation += 1;
+      console.log(calculation);
+    ">1</button>
+
+    <button onclick="
+      calculation += 2;
+      console.log(calculation);
+    ">2</button>
+
+    <button onclick="
+      calculation += 3;
+      console.log(calculation);
+    ">3</button>
+
+    <button onclick="
+      calculation +=  '+' ;
+      console.log(calculation);
+    ">+</button>
+
+    <button onclick="
+      // Note: eval() takes a string and runs it as code.
+      // Avoid using eval() in real world projects since
+      // it can potentially be given harmful code to run.
+      // Only use eval() for learning purposes.
+      calculation = eval(calculation);
+      console.log(calculation);
+    ">=</button>
+
+    <script>
+      let calculation = '';
+    </script> -->
+
+</body>
+</html>

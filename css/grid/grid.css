@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid black;
+    display: grid;
+    /* This for 3 equal columns */
+    grid-template-columns: repeat(3,100px);
+    /* Combination of row-gap and column-gap = Gap */
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px;
+    /* this for rows: */
+    /* grid-template-rows: 100px 20px 30px; */
+    /* this for auto-filling of row: */
+    /* grid-auto-rows :100px; */
+    justify-content: center;
+    
+}
+.box{
+    border: 1px solid red;
+    height: 40px;
+    width: auto;
+    background-color: lightblue;
+
+}
+#box-1{
+    /* justify-self: start; */
+    align-self:center;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+    /* grid-row: 1/4; */
+}
+#box-2{
+    grid-row-start: 1/3;
+   
+}

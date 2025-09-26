@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline;
+    
+}
+ul{
+    background-color: black;
+    margin: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    
+   
+
+}
+.a{
+    background-color: red;
+    padding: 5px;
+}
+.scroll{
+    
+    /* border: 2px solid black; */
+    /* overflow: scroll; */
+    overflow:auto;
+    text-align: justify;
+}
+img{
+    float: left;
+}
+.img1{
+    float: right;
+}
+.scroll2{
+    clear: both;
+}

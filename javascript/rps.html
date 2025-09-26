@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Secissor</title>
+</head>
+<body>
+   <h2>Rock Paper Secissor</h2>
+   <button onclick="
+   if(randomNumber == 0){
+   result = 'Rock'
+   }
+   else if(randomNumber == 1){
+    result = 'Paper'
+   }
+   else if(randomNumber == 2){
+    result = 'Scissor'
+   }
+   console.log(result)
+   if (result == 'Rock'){
+    ansWer ='Tie'
+
+   }
+   else if(result == 'Paper'){
+    ansWer = 'you lose'
+   }
+   else if(result == 'Scissor'){
+    ansWer ='you win'
+   }
+   alert(`You picked Rock. but computer picked ${result}. ${ansWer}` )
+   ">Rock</button>
+   <button 
+    onclick="
+   if(randomNumber == 0){
+   result = 'Rock'
+   }
+   else if(randomNumber == 1){
+    result = 'Paper'
+   }
+   else if(randomNumber == 2){
+    result = 'Scissor'
+   }
+   console.log(result)
+   if (result == 'Rock'){
+    ansWer ='you win'
+
+   }
+   else if(result == 'Paper'){
+    ansWer ='Tie'
+   }
+   else if(result == 'Scissor'){
+    ansWer ='you lose'
+   }
+   alert(`You picked Paper. but computer picked ${result}. ${ansWer}` )
+   "
+   >Paper</button>
+   <button
+    onclick="
+   if(randomNumber == 0){
+   result = 'Rock'
+   }
+   else if(randomNumber == 1){
+    result = 'Paper'
+   }
+   else if(randomNumber == 2){
+    result = 'Scissor'
+   }
+   console.log(result)
+   if (result == 'Rock'){
+    ansWer = 'you lose'
+
+   }
+   else if(result == 'Paper'){
+    ansWer = 'you win'
+   }
+   else if(result == 'Scissor'){
+    ansWer ='Tie'
+   }
+   console.log(ansWer)
+   alert(`You picked Scisor. but computer picked ${result}. ${ansWer}` )
+   "
+   
+   >Secissor</button>
+   <script>
+    let randomNumber = Math.floor(Math.random()*3);
+    let result = '';
+    let ansWer ='';
+
+   </script>
+</body>
+</html>

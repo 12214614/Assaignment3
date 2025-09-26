@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+body{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: lightgreen;
+    background-color: black;
+    font-family: "Story Script", sans-serif;
+}
+main{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(240, 255, 244);
+    border-radius: 15px;
+}
+.box > p{
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(199, 85, 85);
+    border-radius: 15px;
+}
+span{
+    color: yellow;
+    font-weight: bold;
+}
+#span1{
+    font-size: 30px;
+    color: orange;
+    text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Story+Script&display=swap');
+body{
+    background-color: chartreuse;
+    background-image: url("img5.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-sizing: border-box;
+     max-height:fit-content;
+    font-family: "Story Script", sans-serif;
+     
+}
+img{
+    margin-top: 25%;
+    margin-left: 31%;
+    /* border: 10px solid red;
+    border-style: groove ridge dashed double;
+    border-color: blue red black rgb(198, 117, 17);
+    border-radius: 10px; */
+    border-left: 11px solid red;
+    outline: 9px groove red;
+    /* outline-style: solid; */
+    outline-offset: 15PX;
+    position: relative;
+    
+   
+    
+}
+.a{
+    text-align-last: center;
+}
+.b{
+    display: inline;
+}
+.c{
+    display: inline-block;
+    vertical-align: text-top;
+     text-decoration:line-through blue wavy;
+     text-transform: uppercase;
+     text-shadow: 2px 0.5px 1px orange;
+    
+}
+p{
+    color: red;
+    text-align: center;
+    
+   
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+a:hover {
+    color: blue;
+}
+a:visited{
+    color: black;
+}
+
+.topleft{
+    position: absolute;
+   
+    right: 0;
+}

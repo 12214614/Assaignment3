@@ -1,0 +1,11 @@
+body{
+    background-image: url(bird-8788491_1280.jpg);
+    
+background-position-x: left;
+    background-position-y: 90px;
+    background-position-x: 90px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    
+}
+
+p{
+    display: inline;
+    border: 1px solid blue;
+    
+}
+.inline{
+    display: inline-block;
+    height: 80px;
+}
+span{
+    display: inline;
+    
+    border: 1px solid green;
+}
+img{
+    height: 30%;
+    width: 30%;
+}
+ul >li {
+    list-style-type: none;
+    display: inline;
+   
+}
+ul{
+    text-align: right;
+    background-color: black;
+}
+li > a{
+    text-decoration: none;
+    color: rgb(245, 240, 240);
+}
